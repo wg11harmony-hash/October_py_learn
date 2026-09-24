@@ -42,6 +42,20 @@ print(f"工作日的努力参数是: {dayfactor:.3f}")
 # str.center ( width , fillchar ) 居中
 # str.join 用str来填充进后面
 # print(",".join("12345"))  #1,2,3,4,5
+# chr 编码 -> 字符
+# ord 字符 -> 编码
+
+# 凯撒密码
+s = input()
+t = ""
+for c in s:
+    if 'a' <= c <= 'z':
+        t += chr( ord('a') + ((ord(c)-ord('a')) + 3 )%26 )
+    elif 'A' <= c <= 'Z':
+        t += chr( ord('A') + ((ord(c)-ord('A')) + 3 )%26 )
+    else:
+        t += c
+print(t)
 
 # 输出填空
 # print(f"{变量}")
