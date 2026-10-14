@@ -1,0 +1,9 @@
+# Python虚拟环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 运行报告与程序自身日志；保留samples中的样例.log
+/report.json
+/tool_run.log
