@@ -208,7 +208,7 @@ def main():
     try:
         save_json(report, output_path)
     except OSError as error:
-        print(git
+        print(
             f"错误：无法写入JSON报告：{output_path}；原因：{error}",
             file=sys.stderr,
         )
