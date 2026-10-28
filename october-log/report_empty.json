@@ -1,0 +1,13 @@
+{
+  "total_lines": 0,
+  "valid_lines": 0,
+  "bad_lines": 0,
+  "blank_lines": 0,
+  "unique_ips": 0,
+  "ip_counts": {},
+  "path_counts": {},
+  "status_counts": {},
+  "top_ips": [],
+  "top_paths": [],
+  "errors": []
+}

@@ -1,0 +1,71 @@
+{
+  "total_lines": 13,
+  "valid_lines": 7,
+  "bad_lines": 4,
+  "blank_lines": 2,
+  "unique_ips": 3,
+  "ip_counts": {
+    "192.0.2.10": 3,
+    "192.0.2.20": 3,
+    "198.51.100.30": 1
+  },
+  "path_counts": {
+    "/login": 3,
+    "/admin": 1,
+    "/health": 1,
+    "/missing": 1,
+    "/search?q=python": 1
+  },
+  "status_counts": {
+    "200": 3,
+    "401": 1,
+    "404": 2,
+    "500": 1
+  },
+  "top_ips": [
+    {
+      "item": "192.0.2.10",
+      "count": 3
+    },
+    {
+      "item": "192.0.2.20",
+      "count": 3
+    },
+    {
+      "item": "198.51.100.30",
+      "count": 1
+    }
+  ],
+  "top_paths": [
+    {
+      "item": "/login",
+      "count": 3
+    },
+    {
+      "item": "/admin",
+      "count": 1
+    },
+    {
+      "item": "/health",
+      "count": 1
+    }
+  ],
+  "errors": [
+    {
+      "line_number": 9,
+      "reason": "字段数量必须为5"
+    },
+    {
+      "line_number": 10,
+      "reason": "状态码必须为三位ASCII数字"
+    },
+    {
+      "line_number": 11,
+      "reason": "状态码必须在100至599之间"
+    },
+    {
+      "line_number": 12,
+      "reason": "字段数量必须为5"
+    }
+  ]
+}
